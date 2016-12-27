@@ -72,11 +72,29 @@
     <Compile Include="Добавяе на продавач-консултанти.Designer.cs">
       <DependentUpon>Добавяе на продавач-консултанти.cs</DependentUpon>
     </Compile>
+    <Compile Include="Доставки.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Доставки.Designer.cs">
+      <DependentUpon>Доставки.cs</DependentUpon>
+    </Compile>
     <Compile Include="Доставчици.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Доставчици.Designer.cs">
       <DependentUpon>Доставчици.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ЗаявкаТърговскиОбект.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ЗаявкаТърговскиОбект.Designer.cs">
+      <DependentUpon>ЗаявкаТърговскиОбект.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ЗаявкаТърговскиОтдел.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ЗаявкаТърговскиОтдел.Designer.cs">
+      <DependentUpon>ЗаявкаТърговскиОтдел.cs</DependentUpon>
     </Compile>
     <Compile Include="ЗлатнаПанегаDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -122,8 +140,17 @@
     <EmbeddedResource Include="Добавяе на продавач-консултанти.resx">
       <DependentUpon>Добавяе на продавач-консултанти.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Доставки.resx">
+      <DependentUpon>Доставки.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Доставчици.resx">
       <DependentUpon>Доставчици.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ЗаявкаТърговскиОбект.resx">
+      <DependentUpon>ЗаявкаТърговскиОбект.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ЗаявкаТърговскиОтдел.resx">
+      <DependentUpon>ЗаявкаТърговскиОтдел.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Подрупи_артикули.resx">
       <DependentUpon>Подрупи_артикули.cs</DependentUpon>

@@ -46,5 +46,10 @@ namespace MainForm
         {
             new Артикули().Show();
         }
+
+        private void търговскиОтделToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ЗаявкаТърговскиОтдел().Show();
+        }
     }
 }
